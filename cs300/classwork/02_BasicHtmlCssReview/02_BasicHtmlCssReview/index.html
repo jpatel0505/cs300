@@ -1,0 +1,146 @@
+<html>
+
+<head>
+    <title>My First Webpage</title>
+    <meta name="description" content="this page contains bullshit about my first page">
+        <!--this is the description of the search results and the content is what we want people to see the content of the page. This is for search engines. -->
+    <meta name="Keywords" content="html, css, content">
+        <!--This is the keywords that can be asked if you are searching for things. The content is a comma list-->
+        
+    <link rel="shortcut icon" href="images/favicon.ico">
+        <!--"rel" is the relationship to the document. "href" is where you find the file. same as css. Favicons are generally 16px by 16px.-->
+    
+    <link rel="stylesheet" href="css/stylesreview.css">
+    
+    <style>
+        /*imbdedded or internal style sheet. right on the page*/
+        /*styling priority: inline takes priority, then internal and then external*/
+        
+        /*Rulesets for styling:
+            Selector{
+                rule name: value;
+            }
+        */
+        /* !important is to override a style that is in internal v inline*/
+        body{
+            background-color: #ed8a63;
+            font-family: cursive ;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <!--two types of elements: block elements (i.e. div) creates a new line
+    and inline elements (i.e. span) continues with that line-->
+    
+    <!--three types of HTML attributes
+        id: specific and value may be used once per page.
+        class: more general and value may be used many times per page. 
+            a class may appear on many different tyes. i.e. (allDivs element). Each class seperated by a space. 
+        name: depending on the element type, may appear one or more times. 
+    -->
+    <div id="divOne" class="allDivs element">
+        this is a div <span>this is a span</span>
+        I can continue on the same line
+    </div>
+    <div id="divTwo" class="allDivs element">
+        this is another div that is on its own line. Blocks start on new lines
+    </div>
+    
+    <!--Semantic Element: glorified div elements
+        
+        1. header - top of page
+        2. footer - bottom of page
+        3. nav - holds navigation
+        4. aside - sidebar
+        5. section - block of content
+        6. article - block of content
+    -->
+    
+    <header class="element">
+        This is my header
+        <nav>
+            My header navigation (nav)
+        </nav>
+    </header>
+    
+    <aside>
+        This is my sidebar (aside)
+        <nav>
+            Sidebar Navigation
+        </nav>
+    </aside>
+    
+    <section>
+        Section
+        <article>
+            Articel inside section
+        </article>
+    </section>
+    
+    <article>
+        Article 
+        <section>
+            Section insdie article
+        </section>
+    </article>
+    
+    <footer>
+        This is my footer
+        <div>
+            Div inside of footer
+        </div>
+    </footer>
+    
+    
+    <!--Headings: Prestyled divs that have default browser styles
+        1. h1 - most important and 1 per page
+        2. h2 - No limit
+        3. h3 - No limit
+        4. h4 - No limit
+        5. h5 - No limit
+        6. h6 - No limit
+        7. p - paragraph (no limit)
+    -->
+    
+    <h1>E R S T N</h1>
+    <h2>R B 8 D N</h2>
+    <h3>C 8 S 4 D</h3>
+    <h4>3 D 4 P 1</h4>
+    <h5>1 S D F P</h5>
+    <h6>9 O 4 S M</h6>
+    
+    <p>
+        this is a paragraph
+    </p>
+    <!--Text elements: pre-styled spans that have default broser style-->
+    
+    <b> b: bold </b>|
+    <strong> strong </strong>|
+    <i> i: italics </i>|
+    <q> quotes </q>|
+    <u> u: underline </u>|
+    <sub> sub: subscript </sub>
+    <sup> sup: superscript </sup>
+    <code> code </code>
+    <br> line break <br>
+    
+    <!--HTML character entities-->
+    &amp; 
+    &nbsp; 
+    &copy;
+    &trade;
+    &reg;
+    &plusmn;
+    &lt;
+    &gt;
+    &lsquo;
+    &rsquo;
+    &ldquo;
+    &ldquo;
+    
+
+</body>
+
+</html>

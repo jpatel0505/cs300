@@ -1,0 +1,61 @@
+body{
+	font-family: calibri, arial, sans-serif;
+}
+
+/*measurement types: px, pt, %, em */
+.box{
+    height:100px;
+    width:100px;
+    
+    text-align: center;
+    line-height:100px;
+}
+
+#box1{
+        /*border: thickness type color; (rule applies to all four sides*/
+    border:2px solid black;
+        /*border types: 
+            1. solid
+            2. dotted
+            3. dashed
+            4. double
+            5. inset
+        */
+}
+
+#box2{
+    border-width:2px;
+    border-style:solid;
+    border-color:purple;
+    /*
+        border-width - thickness
+        border-style - type
+        border-color - color
+        */
+}
+
+#box3{
+    /*for all three you go from: top right bottom left in terms of their orientation*/
+    border-width:2px 4px 6px 8px;
+    border-style: solid dotted dashed double;
+    border-color:blue pink yellow green;
+}
+
+#box4{
+    /*border-side:thickness type and color*/
+    border-top:2px solid black;
+    border-right:4px solid black;
+    border-bottom:6px solid black;
+    border-bottom:8px solid black;
+}
+
+#box5{
+    /*border-size-property:value;*/
+    border-top-width:2px;
+    border-right-width:2px;
+    border-bottom-width:2px;
+    border-left-width:2px;
+    
+    border-right-style:solid;
+     border-right-style:solid;
+}

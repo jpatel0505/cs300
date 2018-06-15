@@ -1,0 +1,27 @@
+/*
+Rule sets may be created using 3 types of sleectors: 
+    1. type = element type (body, div, span, h1, etc.)
+    2. id = id attribute -> starts with a hashtag (#divOne)
+    3. class = class attribute -> starts with a period (.allDivs)
+*/
+
+/* Type selector */
+
+div{
+    font-size: 24px;
+}
+span{
+    text-decoration:underline overline;
+}
+
+/*id selector*/
+
+#divOne{
+    font-weight:900;
+}
+
+/*class selector*/
+
+.element{
+    color: #aaf190;
+}

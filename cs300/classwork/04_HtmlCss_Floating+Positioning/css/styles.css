@@ -1,0 +1,143 @@
+body{
+	font-family: calibri, arial, sans-serif;
+	/*always good idea to list more than one in case a broswer does not have it*/
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	width: 90%;
+	height: 50px;
+	padding: 25px 5%;
+	border-bottom: 2px solid black;
+	float: left; 
+}
+
+footer{
+	width: 90%;
+	height: 50px;
+	padding: 25px 5%;
+	border-top: 2px solid black;
+	float:left;
+}
+
+.box{
+	height: 200px;
+	width: 200px;
+	line-height: 200px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	padding: 50px;
+	margin: 50px 0;
+	border: 2px solid black;
+	border-radius: 226px;
+	background: white;
+	float:left;
+}
+
+#box2 {
+	float: right;
+}
+
+.left{
+	float: left;
+	width:40%;
+	height:100%;
+	background:lightgrey;
+
+}
+
+.right{
+	float: right;
+	width:50%;
+	height:100%;
+	text-align: right;
+	background:lightgrey;
+}
+
+/*.mid{*/
+/*	float:right;*/
+	/*clear measn nothing is on the side of it. ie clear:right clears everything on the right side etc. */
+/*	width:5%;*/
+/*	border: 1px solid black;*/
+/*	height:100%;*/
+	
+/*}*/
+
+.big{
+	font-size:24px;
+	font-weight:700;
+	text-transform: lowercase;
+}
+
+.small{
+	font-size:18px;
+	font-weight:500;
+	letter-spacing:5px;
+}
+#container{
+	float:left;
+	width:90%;
+	padding: 25px 5%;
+}
+
+#topics{
+	/*float:left;*/
+	height:440px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.contentSection{
+	float:left;
+	width:50%;
+}
+
+#contentSection2{
+	float:right;
+	width:50%;
+}
+
+#mainContent{
+	float:left;
+	width: 50%;
+	background:lightgrey;
+	height:350px;
+	
+}
+
+aside{
+	position:relative;
+	z-index: 1;
+	bottom:20px;
+	right:20px;
+	float:right;
+	width:25%;
+	background:lightblue;
+	height:350px;
+}
+
+h3{
+	position:absolute;
+	bottom:20px;
+	right:10px;
+	
+}
+
+#scrollBtn{
+	position:fixed;
+	bottom:25px;
+	right:25px;
+	z-index:2;
+	height:50px;
+	width:50px;
+	line-height:50px;
+	border-radius:50%;
+	background:yellow;
+	font-size:14px;
+	font-weight:700;
+}
