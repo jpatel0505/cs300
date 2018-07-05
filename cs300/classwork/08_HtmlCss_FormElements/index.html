@@ -1,0 +1,190 @@
+<html>
+	<head>
+		<title>HTML &amp; CSS - Form Elements</title>
+		<!-- Title limited to ~65 characters-->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<meta name="description" content="This is in class work">
+
+		<meta name="keywords" content="html, css, web development, neiu">
+	</head>
+	<body>
+		<header>
+			<section class="left">
+				<div class="big">
+					NEIU
+				</div>
+				<div class="small">
+					CS300
+				</div>
+			</section>
+			<section class="right">
+				<div class="big">
+					HTML &amp; CSS
+				</div>
+				<div class="small">
+					Form Elements
+				</div>
+			</section>
+		</header>
+		<div id="container">
+			<article>
+				<h1>Create an Account</h1>
+				<section>
+					<form method="post">
+						<!--The two methods: "post" and "get"-->
+						<!--action is what happens with the form when we submit it. Where is this form going to?-->
+						<div class="row">
+							<label for="hiddenInput">Hidden</label>
+							<!--input hidden-->
+							<input type="hidden" name="hiddenInput" value="00123453">
+						</div>
+						<div class="row">
+							<label for="textInput">Text</label>
+							<!--input text-->
+							<input type="text" id="textInput" name="" placeholder="Enter Text" maxlength="10">
+							
+						</div>
+						<div class="row">
+							<label for="emailInput">Email</label>
+							<!--label allows you to associate text with form element-->
+							<!--input email-->
+							<input type="email" id="emailInput" name="emailInput" required>
+						</div>
+						<div class="row">
+							<label for="passwordInput">Password</label>
+							<!--input password-->
+							<input type="password" id="passwordInput" name="passwordInput" maxlength="12" placeholder="Password Max 12 Characters">
+						</div>
+						<div class="row">
+							<label for="rangeInput">Range</label>
+							<!--input range-->
+							<input type="range" id="rangeInput" name="rangeInput" min="0" max="4" step="0.25">
+						</div>
+						<div class="row">
+							<label>File Upload</label>
+							<!--input file-->
+						</div>
+						<div class="row">
+							<label for="numberInput">Number</label>
+							<!--input number-->
+							<input type="number" id="numberInput" name="numberInput" min="5" max="21" step="3">
+						</div>
+						<div class="row">
+							<label>File</label>
+							<!--input file-->
+						</div>
+						<div class="row">
+							<label for="textArea1">Text Area</label>
+							<!--textarea-->
+							<textarea id="textArea1" name="textArea1" placeholder="write a paragraph"></textarea>
+						</div>
+						<div class="row">
+							<label for="textArea2">Text Area 2</label>
+							<!--textarea-->
+							<textarea id="textArea2" name="textArea2" placeholder="write a paragraph" rows="4" cols="20"></textarea>
+						</div>
+						<div class="row">
+							<label for="selectList">Select (Dropdown)</label>
+							<!--select list-->
+							<select id="selectList">
+								<option>--Select--</option>
+								<option value="1">Option1</option>
+								<option value="2">Option2</option>
+								<option value="3" selected>Option3</option>
+							</select>
+							
+							<select id="selectList2">
+								<optgroup label="Group 1">
+									<option value="1_1">Option1</option>
+									<option value="1_2">Option2</option>
+								</optgroup>
+								<optgroup label="Group 2">
+									<option>--Select--</option>
+									<option value="1">Option1</option>
+									<option value="2">Option2</option>
+									<option value="3" selected>Option3</option>
+								</optgroup>
+							</select>
+							
+						</div>
+						<div class="row">
+							<label for="listBox">Select (List Box)</label>
+							<!--option box-->
+							<select id="listBox" size="3" multiple></a>>
+								<option value="0">--Select--</option>
+								<option value="1">Option1</option>
+								<option value="2">Option2</option>
+								<option value="3" selected>Option3</option>
+							</select>
+						</div>
+						<div class="row">
+							<label>Checkbox</label>
+							<!--input checkbox-->
+							<div class="checkRow">
+								<label for="check1">One</label>
+								<input type="checkbox" id="check1" name="checks" value="1">
+								<!--<label>Two</label>-->
+								<!--<label>Three</label>-->
+							</div>
+							<div class="checkRow">
+								<label for="check2">Two</label>
+								<input type="checkbox" id="check2" name="checks" value="2">
+								<!--<label>Two</label>-->
+								<!--<label>Three</label>-->
+							</div>
+						</div>
+						<div class="row">
+							<label>Radio</label>
+							<!--input radio-->
+							<div class="checkRow">
+								<label for="radio1">One</label>
+								<input type="radio" id="Radio1" name="radios" value="1">
+								<!--<label>Two</label>-->
+								<!--<label>Three</label>-->
+							</div>
+							<div class="checkRow">
+								<label for="radio2">Two</label>
+								<input type="radio" id="Radio2" name="radios" value="2">
+								<!--Must have the same "name" attribute-->
+								<!--<label>Two</label>-->
+								<!--<label>Three</label>-->
+							</div>
+						</div>
+						<div class="row">
+							<!--input buttons (reset, submit, button, image)-->
+							<div>
+								<input type="submit" class="buttons" value="Submit Me">
+							
+								<input type="reset" class="buttons" value="Reset">
+								
+								<input type="button" class="buttons" value="Button">
+								
+								<input type="image" src="images/btn1.jpg" class="buttons imageButton">
+								<!--image button acts as a "submit"-->
+							</div>
+						</div>
+						<div class="row">
+							<!--by default it acts as a submit unless we tell it to do something othewise. button (with text, image, and both)-->
+							<button class="buttons" type="submit">Button</button>
+							<button class="buttons" type="Reset">Reset</button>
+							<button class="buttons imageButton">
+								<img src="images/btn1.jpg">
+							</button>
+						</div>
+					</form>
+				</section>
+			</article>
+		</div>
+		<div class="clear"></div>
+		<footer>
+			<section class="left ftrLeft">
+				Northeastern Illinois University - CS300
+			</section>
+			<section class="right ftrRight">
+				&copy; Copyright 2018
+			</section>
+		</footer>
+	</body>
+</html>

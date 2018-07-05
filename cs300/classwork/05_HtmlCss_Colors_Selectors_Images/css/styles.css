@@ -289,6 +289,16 @@ div+p{
 	background: #00d0ff;
 }
 
-#selectorSection p:n-child(2):hover{
+#selectorSection p:n-child(odd):hover{
 	background: #00ff5a;
+}
+
+/*Psudo elements*/
+/*:first-letter, :first-line */
+p:first-letter{
+	font-size:32px;
+}
+
+p:first-line{
+	font-family:cursive;
 }

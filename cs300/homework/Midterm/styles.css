@@ -1,0 +1,100 @@
+#head{
+    background-color:black;
+    height:40px;
+    
+}
+
+#header2{
+    background:gray;
+}
+
+.right{
+    position:left;
+    width:50%;
+    color:white;
+}
+.left{
+    padding-left:90%;
+    width:50%;
+    color:white;
+}
+.righttext{
+    float:right;
+}
+
+.lefttext{
+    float:left;
+}
+
+#box1{
+    background-image:url('Images/hero-tall-002.jpg');
+    padding:50px;
+    position:static;
+    height:500px;
+}
+.breakthrough{
+    width:50%;
+    height:250px;
+}
+
+.heading1{
+    color: blue;
+    position:absolute;
+    top:320px;
+    width:50%;
+    font-size:30px;
+}
+
+#box2{
+    width:50%;
+    position: relative;
+    
+}
+#image1{
+    position:absolute;
+    padding:20px;
+    
+
+}
+.vl{
+    border-right:5px solid gray;
+    height:100px;
+    width:20px;
+    float:left;
+    padding-left:75px;
+    
+}
+
+#text1{
+    text-align: left;
+    height:100px;
+    padding-left:120px;
+    width:32%;
+    color:white;
+}
+
+#container{
+    width:50%;
+    height:250px;
+}
+
+.first{
+    float:left;
+    background-color:#006622;
+    width:150px;
+    height:130px;
+    padding:20px;
+    margin:10px;
+    color:white;
+
+}
+
+.second{
+    float:left;
+    background-color:#009973;
+    width:150px;
+    height:130px;
+    padding:20px;
+    margin:10px;
+    color:white;
+}

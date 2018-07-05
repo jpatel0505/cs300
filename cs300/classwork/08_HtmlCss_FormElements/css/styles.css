@@ -1,0 +1,199 @@
+body{
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: calibri, arial, sans-serif;
+}
+
+header{
+	float: left;
+	width: 96%;
+	height: 75px;
+	padding: 20px 2%;
+	border-bottom: 2px solid black;
+	background: #f7f7f7;
+	z-index: 5;
+	color: #2c3e50;
+}
+
+header .left{
+	font-size: 36px;
+}
+
+header .right{
+	font-size: 18px;
+}
+
+header .small{
+	color: #f1c40f;
+}
+
+.left{
+	float: left;
+	width: 40%;
+}
+
+.right{
+	float: right;
+	width: 40%;
+	text-align: right;
+}
+
+.big{
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.small{
+	font-weight: 400;
+	text-transform: lowercase;
+}
+
+#container{
+	float: left;
+	width: 100%;
+}
+
+article{
+	float: left;
+	width: 80%;
+	padding: 2% 10% 0 10%;
+	min-width: 490px;
+	height: auto;
+}
+
+h2{
+	float: left;
+	clear: both;
+	width: 50%;
+}
+
+div{
+	float: left;
+	clear: both;
+	width: 100%;
+	
+}
+
+.clear{
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+footer{
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	margin-top: 30px;
+	border-top: 5px double black;
+}
+
+.ftrLeft{
+	padding-left: 2%;
+}
+
+.ftrRight{
+	padding-right: 2%;
+}
+
+/*Forms Elements*/
+.row{
+	width: 90%;
+	margin: 5px 5%;
+}
+
+label{
+	float: left;
+	font-size: 24px;
+	color: #34495e;
+	display:inline-block;
+	width:100px;
+	margin-right:30px;
+	
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="range"],
+input[type="number"],
+#selectList, #selectList2{
+	width:300px;
+	height:50px;
+	padding:5px;
+	font-size:24px;
+	border: 3px solid #2ecc71;
+	
+}
+#listBox{
+	width:300px;
+	height:50px;
+	padding:5px;
+	resize: none;
+	
+}
+#textArea1, #textArea2{
+	font-size:24px;
+	border: 3px solid #2ecc71;
+}
+#textArea1{
+	width:300px;
+	height:50px;
+	padding:5px;
+	resize: none;
+}
+
+.checkRow{
+	margin-left:140px;
+}
+.checkRow label{
+	width:50px;
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+	height:50px;
+	width:50px;
+}
+*:invalid{
+	background: rgba(231,76,60,.4);
+}
+
+*:required{
+	border-color:red !important;
+}
+::placeholder{
+	color: rgba(0,0,0,.3);
+}
+
+.buttons{
+	width:100px;
+	border:1px solid #2c3e50;
+	cursor: pointer;
+	margin: 0 20px;
+	background:white;
+	font-family:fantasy;
+}
+.buttons:not(.imageButton){
+	height:40px;
+	border:1px solid #2c3e50;
+
+}
+.buttons:hover{
+	background:#f1c40f;
+	color:#8e44ad;
+	font-weight:900;
+}
+
+/*Colors*/
+/*
+	translucent red --> rgba(231,76,60 ,.1)
+	midnight blue --> #2c3e50
+	silver  --> #bdc3c7
+	sunflower --> #f1c40f
+	emerland --> #2ecc71
+	wisteria --> #8e44ad
+	wetasphalt --> #34495e
+*/
